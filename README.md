@@ -11,6 +11,7 @@ This repository aims to explain the process of building a movie recommender to s
 2. Two models that were saved using pickle
 3. The [framework](https://github.com/FaraahJ/Movie_Recommender_Project/blob/main/movieapp.py) used to load models and build functions for the final application in VSCode
 
+
  📈 The [User Based recommender]() directory contains files for the rating based system. In here you will find:
 
 1. The new dataset used for the system, that can be found [here](https://www.kaggle.com/datasets/debanganghosh/imdb-dataset?resource=download) 
