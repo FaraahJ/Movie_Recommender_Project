@@ -1,1 +1,23 @@
-# Movie_Recommender_Project
+ PROJECT 2 - Movie Recommender Project
+
+This repository aims to explain the process of building a movie recommender to suggest similar movie titles to users based off of:
+- Content ::
+- Ratings ::
+
+The main directory contains files for the content based system. In this you will find:
+
+1. [Analysis of the dataset] - Natural Language Processing, vectorisation, cosine similarity and stemming were used to 
+   compute similar movies based on their overview description, genre, cast and crew. 
+2. Two models that were saved using pickle
+3. The framework used to load models and build functions for the final application in VSCode ([movieapp.py])
+
+The [User Based recommender] directory contains files for the rating based system. In here you will find:
+
+1. The new dataset used for the system, that can be found [here] 
+2. [Data visualisation] and [model building] - (::Due to circular import errors, the visualisation and modelling were 
+   performed separately across Jupyter Notebook and Google Colab). The data was analysed based on the number of counts per 
+   IMDB rating, and the number of IMDB ratings per movie title. Surprise library packages were used to create predictions 
+   using a range of different algorithms and were evaluated using RMSE metrics. 
+3. The KNNWithMeans algorithm showed the best RMSE score, therefore it is the saved [chosen model]
+4. The [app.py] file displays the model loading and final app function creation in VSCode.
+
